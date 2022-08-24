@@ -34,10 +34,23 @@ p {
     font-size: 15px;
 }
 
-.inline {
-    display: flex;
+.button2 {
+    text-decoration: none;
+    font-weight: 850;
+    background-image: linear-gradient(salmon, tomato);
+    border-radius: 5px;
+    padding: 10px 30px;
+    color: white;
+
 }
 
 .part-2 {
-    text-align: center;
+    display: flex;
+    flex-direction: column;
+    text-align: ;
+}
+
+.width {
+    width: 50%;
+    text-align: justify;
 }
