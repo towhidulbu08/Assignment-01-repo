@@ -20,13 +20,18 @@ h1 {
 .part-1 {
     background-image: url(donation13.jpg);
     background-size: cover;
-    height: 80vh;
+    height: 90vh;
 }
 
 .alignment {
     text-align: center;
     padding-top: 150px;
     color: white;
+    width: 650px;
+    margin-top: 5%;
+    margin-bottom: 6%;
+    margin: auto;
+    padding-bottom: 150px;
 
 }
 
@@ -44,13 +49,167 @@ p {
 
 }
 
-.part-2 {
+
+
+
+
+
+
+.new-area .price-area {
     display: flex;
-    flex-direction: column;
-    text-align: ;
+    align-items: center;
+    justify-content: center;
 }
 
-.width {
-    width: 50%;
-    text-align: justify;
+
+
+
+.new-area .price {
+    width: 135px;
+    height: 123px;
+    background: #fafafa;
+    border-radius: 5px;
+    margin: 11px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#special-price {
+    width: 135px;
+    height: 123px;
+    background: #ffeeee;
+    border: 2px solid #ff5959;
+    border-radius: 5px;
+    color: #ff5959;
+    margin: 11px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.other-amount {
+    margin: 0 auto;
+    text-align: center;
+    border-bottom: 1px solid #dadada;
+    width: 75%;
+    padding: 12px;
+}
+
+.donate-now-btn {
+    background: #ff5959;
+    border-radius: 5px;
+    padding: 16px 12px;
+    color: White;
+    border: none;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+    color: #ffffff;
+}
+
+.container {
+    text-align: center;
+    margin-top: 25px;
+}
+
+.donate-plan-area .donate-plan {
+    height: 280px;
+    border-radius: 5px;
+    width: 30%;
+    margin: 2%;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.donate-plan-area {
+    display: flex;
+}
+
+#food {
+    background: rgba(79, 157, 166, 0.1);
+}
+
+#shelter {
+    background: rgba(255, 89, 89, 0.1);
+}
+
+#frame {
+    background: #fff4d6;
+}
+
+.subscriber {
+    display: flex;
+    justify-content: center;
+}
+
+.subscribe-area {
+    background: #fff4d6;
+    width: 75%;
+    padding: 6%;
+    display: flex;
+    justify-content: center;
+}
+
+.subscribe-area input {
+    background: #d9d9d9;
+    height: 48px;
+    border: none;
+    outline: 0;
+    padding-left: 15px;
+}
+
+.subscribe-area button {
+    background: #ff5959;
+    height: 49px;
+    border: none;
+    font-weight: 500;
+    font-size: 16px;
+    text-align: center;
+    color: #ffffff;
+    padding: 0 15px;
+}
+
+.footer {
+    height: 150px;
+    background: #000000;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.humble {
+    font-weight: 400;
+    font-size: 36px;
+    color: #ff5959;
+}
+
+.do-it {
+    color: #d9dbe1;
+    font-size: 14px;
+}
+
+.service-area {
+    display: flex;
+    height: 400px;
+}
+
+.service-content {
+    width: 48%;
+    padding: 20px;
+}
+
+.service-content img {
+    width: 100%;
+    height: 100%;
+}
+
+.service-text {
+    font-size: 35px;
+    font-weight: 700;
+    color: #000000;
+    margin-bottom: 18px;
 }
