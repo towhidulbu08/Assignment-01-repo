@@ -1,0 +1,43 @@
+body {
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+.button {
+    text-decoration: none;
+    font-weight: 850;
+    background-image: linear-gradient(salmon, tomato);
+    border-radius: 5px;
+    padding: 10px 30px;
+    color: white;
+
+}
+
+h1 {
+    font-size: 50px;
+}
+
+.part-1 {
+    background-image: url(donation13.jpg);
+    background-size: cover;
+    height: 80vh;
+}
+
+.alignment {
+    text-align: center;
+    padding-top: 150px;
+    color: white;
+
+}
+
+p {
+    font-size: 15px;
+}
+
+.inline {
+    display: flex;
+}
+
+.part-2 {
+    text-align: center;
+}
